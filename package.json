@@ -1,0 +1,21 @@
+{
+  "name": "assigment3-linlangli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run-tests": "npx playwright test",
+    "ui-mode": "npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "wait-on": "^8.0.1"
+  }
+}
